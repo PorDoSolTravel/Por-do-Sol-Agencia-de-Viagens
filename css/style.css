@@ -1,0 +1,109 @@
+	@import url('https://fonts.googleapis.com/css2?family=Norican&display=swap');
+	
+	body {
+		padding: 0;
+		margin: 0;
+		background-color: #0000;
+		font-family: 'Calibri', 'Helvética';
+	}
+	
+	.navbar-nav {
+		text-align: right;
+	}
+	.navbar .navbar-nav .nav-link {
+		padding-right: 1em;
+	}
+	.nav-link {
+	  font-size: 14px;
+	  padding: 20px 0px;
+	  margin: 0px 5px;
+	  display: inline-block;
+	  position: relative;
+	}
+	.nav-link::before {
+	  transition: 300ms;
+	  height: 5px;
+	  content: '';
+	  position: absolute;
+	  background-color: #031D44;
+	}
+	
+	.nav-link-fade-up1::before {
+	  width: 45px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+	
+	.nav-link-fade-up2::before {
+	  width: 66px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+	
+	.nav-link-fade-up3::before {
+	  width: 64px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+	
+	.nav-link-fade-up4::before {
+	  width: 53px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+	
+	.nav-link-fade-up5::before {
+	  width: 115px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+
+	.nav-link-fade-up6::before {
+	  width: 52px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+	
+	.nav-link-fade-up7::before {
+	  width: 88px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+
+	.nav-link-fade-up8::before {
+	  width: 140px;
+	  bottom: 5px;
+	  opacity: 0;
+	}
+	
+	.nav-link-fade-up1:hover::before,
+	.nav-link-fade-up2:hover::before,
+	.nav-link-fade-up3:hover::before,
+	.nav-link-fade-up4:hover::before,
+	.nav-link-fade-up5:hover::before,
+	.nav-link-fade-up6:hover::before,
+	.nav-link-fade-up7:hover::before,
+	.nav-link-fade-up8:hover::before {
+	  bottom: 10px;
+	  opacity: 1;
+	}
+	
+	.navbar-toggler:focus {
+	  box-shadow: none;
+	}
+	.form-control:focus {
+	  box-shadow: none;
+	}
+	
+	.button {
+		padding: 10px 0px;
+		margin: 0px 5px;
+		display: inline-block;
+		position: relative;
+	}
+	.btn {
+		font-weight: bold;
+		text-transform: uppercase;
+		text-decoration: none;
+		width: 100px;
+	}
